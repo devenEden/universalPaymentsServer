@@ -11,7 +11,7 @@ const dbURI = process.env.DBURI;
 const app = express(); 
 
 //connect to database 
-mongoose.connect('mongodb+srv://deven:@#123mattjohn@cluster0.m7ce6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{ useNewUrlParser:true, useUnifiedTopology:true })
+mongoose.connect('mongodb+srv://deven:e6BlnwaPqOMzuC2I@cluster0.m7ce6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',{ useNewUrlParser:true, useUnifiedTopology:true })
 .then(() => {
     console.log('Database Connected',`Server listening on port ${PORT}`); 
     app.listen(PORT);
